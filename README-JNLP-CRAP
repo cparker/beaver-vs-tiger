@@ -1,0 +1,3 @@
+When you mvn clean package you'll have a target/jnlp dir.  This dir needs to be tarred up hosted wherever you want. The 'homepage' in the .jnlp file needs to be changed depending on where you host it.
+
+Make sure the cert is still valid.  Add a -X when you mvn clean package and it will tell you
